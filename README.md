@@ -98,6 +98,20 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ## 3. Environmental setup  (We're using Expo)
 ---------------------------------------------
 
@@ -105,10 +119,22 @@
 - Install Expo CLI (same way we start with installing Vite in react js): npx create-expo-app Flacko --template blank
 - Go to project directory: cd Flacko
 - Start the app: npx expo start
+- Then scan the qr code in terminal, click the link then it will redirect on expo app
 
+- To run on machine, install: npx expo install react-dom react-native-web @expo/metro-runtime
+- Them npx expo start, and after click 'w'
+- But there is no ios simulators on windows pc
 
 
 We dont need the npm i like reactjs cause by installing Expo CLI, it automatically installs dependencies
+
+
+
+
+
+
+
+
 
 
 
