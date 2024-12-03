@@ -5,12 +5,10 @@
 2. Changes made based on jsx
 3. Environment setup
 4. Stylesheets api / inline styles
-5. React navigation
+5. Expo
 
-6. Animated API
-7. Expo
-8. Flipper
-9. Testing with emulators
+6. Testing with Expo, web or emulators
+7. 
 
 
 ---------------------------------------------------------------------------------------------------------------
