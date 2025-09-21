@@ -1,8 +1,8 @@
 # REACT NATIVE WRAPPER
 ---------------------------------------------------------------------------------------------------------------
 
-1. New elements based on jsx
-2. Changes made based on jsx
+1. New elements not in jsx
+2. Changes compared to jsx
 3. Environment setup
 4. Stylesheets api / inline styles
 5. Expo
@@ -17,7 +17,6 @@
 <!------------------------------- Optionals to install ------------------------------------------
     - Install 'React Native tools' vscode extension for debugging
     - Install 'React-Native/React/Redux snippets for es6/es7' vscode extension for shortcut snippets
-    - Install 'Prettier' for formatting our code
     - Install 'Material Icon theme' for project directory icons
 ------------------------------------------------------------------------------------------------->
 
@@ -31,8 +30,7 @@
 ------------------------------
 
 - div → View
-- h1, h2, h3, etc. → Text
-- p, span → Text
+- h1, h2, h3, p, span etc. → Text
 - img → Image
 - button → TouchableOpacity, Button, or Pressable
 
@@ -113,8 +111,19 @@
 ## 3. Environmental setup  (We're using Expo)
 ---------------------------------------------
 
+### Why we use npx in React Native instead of npm:
+
+- npm is used to install packages into a project.
+- npx is used to run a tool/package immediately without installing it globally.
+- React Native setup tools (like create-expo-app) are not things we use every day in the project, so we don’t need to install them permanently.
+- By using npx, we always get the latest version of the tool directly from npm, use it once to create the app, and move on.
+
+
+
 - Install 'Expo client' app on your mobile phone
-- Install Expo CLI (same way we start with installing Vite in react js): npx create-expo-app Flacko --template blank
+- Install Expo CLI (same way we start with installing Vite in react js): 
+npx create-expo-app Flacko --template blank
+
 - Go to project directory: cd Flacko
 - Start the app: npx expo start
 - Then scan the qr code in terminal, click the link then it will redirect on expo app
